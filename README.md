@@ -23,7 +23,7 @@ Moreover, I also relied on Craig Buckler's tutorial http://www.sitepoint.com/htm
 ##### Backend:
   - Node.js + Express
   - socket.io-server
-  
+
 ##### Frontend:
   - socket.io-client
   - jQuery
@@ -41,7 +41,7 @@ Moreover, I also relied on Craig Buckler's tutorial http://www.sitepoint.com/htm
 1. Find another friend using the search box.
 2. Drag and drop name over "Add to Current Chat".
 3. This will send your friend an invitation to join your conversation.
- 
+
 ##### File sharing
 
 1. Click the "Choose File" button and select an image or video file to share".
@@ -102,7 +102,13 @@ To start using the chat app, open your browser at http://localhost:3000/
 
 Happy chatting!
 
-### Implementation 
+##### 4.1 Run app with docker
+
+```
+docker-compose up --build -d
+```
+
+### Implementation
 
 ##### Method
 

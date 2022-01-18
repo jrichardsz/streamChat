@@ -3,9 +3,9 @@
   "version": "0.0.1",
   "description": "streamRoot coding challenge",
   "main": "app.js",
-      "scripts":{
-          "start": "node app.js"
-      },
+  "scripts": {
+    "start": "node app.js"
+  },
   "author": "Benjamin Suire",
   "dependencies": {
     "express": "^4.10.2",
